@@ -1,0 +1,52 @@
+html { 
+    background-color: rgb(240, 240, 240);
+}
+
+.textoLogin {
+    padding: 10px;
+    margin: 0 150px;
+    border: 1px solid #000;
+    line-height: 10px;
+}
+
+#btLogout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#btLogout a {
+    color: #FFF;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#btLogout a:hover {
+    background-color: rgb(167, 0, 0);
+}
+
+#btLogout a:visited {
+    color:#FFF;
+}
+
+.exemploPagina{ 
+    padding: 10px;
+    margin: 0 150px;
+    border: 1px solid #000;
+    line-height: 10px;
+    height: 60vh;
+    border-top: none;
+}
+
+.exemploPagina p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.exemploPagina h3 {
+    text-align: center;
+    font-weight: normal;
+}
